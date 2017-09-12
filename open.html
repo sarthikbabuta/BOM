@@ -1,0 +1,23 @@
+<html>
+<head>
+<title> </title>
+</head>
+<body>
+<button type="button" onclick="demo()">open</button>
+<button type="button" onclick="demo1()">close</button>
+<script>
+function demo()
+{
+window.open("","","heigth=200,width=100");
+}
+var a=window.open();
+function demo1()
+{
+  if(a)
+  {
+  a.window.close();
+  }
+}
+</script>
+</body>
+</html>

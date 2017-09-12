@@ -1,0 +1,24 @@
+<html>
+<body>
+<p id="demo1"></p>
+<p id="demo2"></p>
+<p id="demo3"></p>
+<p id="demo4"></p>
+<p id="demo5"></p>
+<p id="demo6"></p>
+<button type="button" onclick="yes()">click</button>
+<script>
+document.getElementById("demo1").innerHTML="page location is  "+window.location.pathname;
+document.getElementById("demo2").innerHTML ="Page protocol is:" + window.location.protocol;
+document.getElementById("demo3").innerHTML= "Page location is: "+ window.location.href;
+document.getElementById("demo4").innerHTML="Page hostname is: " + window.location.hostname;
+document.getElementById("demo5").innerHTML="hello"+window.location.port;
+</script>
+<script>
+function yes()
+{
+ window.location.assign("https://www.w3schools.com");
+}
+</script>
+</body>
+</html>

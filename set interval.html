@@ -1,0 +1,18 @@
+<html>
+<head>
+<title> </title>
+</head>
+<body>
+<p id="yes"></p>
+<p id="yes1"></p>
+<script>
+var a=setInterval(demo,1000);
+function demo()
+{
+var d=new Date();
+document.getElementById("yes").innerHTML=d.toLocaleTimeString();
+document.getElementById("yes1").innerHTML=d;
+}
+</script>
+</body>
+</html>
